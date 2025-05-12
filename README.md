@@ -1,4 +1,4 @@
-# 🚍 Passenger Counter App
+# 🚍 Subway-Passenger-Counter
 
 A simple JavaScript project that allows users to count passengers and save previous counts interactively.
 
