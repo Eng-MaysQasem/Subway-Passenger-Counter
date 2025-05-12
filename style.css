@@ -16,21 +16,40 @@ h1 {
 
 #counter {
   font-size: 4rem;
-  color: #007bff;
+  color: #ff0000;
   margin: 20px 0;
 }
 
 button {
-  padding: 15px 30px;
+  width: 200px;
+  padding: 15px;
   font-size: 1.2rem;
-  background-color: #28a745;
   color: white;
   border: none;
   border-radius: 8px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  margin: 8px;
 }
 
-button:hover {
+#increment-btn {
+  background-color: #28a745;
+}
+
+#increment-btn:hover {
   background-color: #218838;
+}
+
+#save-btn {
+  background-color: #007bff;
+}
+
+#save-btn:hover {
+  background-color: #0062cc;
+}
+
+#save-el {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: #555;
 }
